@@ -1,5 +1,5 @@
 """
-HealthLens AI - Lab Report Analysis with Food & Fitness Recommendations
+HealthLens  - Lab Report Analysis with Food & Fitness Recommendations
 Main Streamlit Application
 """
 
@@ -89,7 +89,7 @@ def initialize_modules():
         return {'available': False}
 
 def main():
-    st.markdown('<h1 class="main-header">🔬 HealthLens AI</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">🔬 HealthLens </h1>', unsafe_allow_html=True)
     st.markdown('<p style="text-align: center; font-size: 1.2rem; color: #666;">Lab Report Analysis with AI-Powered Recommendations</p>', unsafe_allow_html=True)
     
     # Sidebar
@@ -121,7 +121,7 @@ def main():
     elif page == "📅 Reminders":  # Added back
         show_reminders()
 def show_home():
-    st.header("Welcome to HealthLens AI! 👋")
+    st.header("Welcome to HealthLens! 👋")
     
     col1, col2 = st.columns(2)
     
